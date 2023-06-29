@@ -20,8 +20,8 @@ link_directories("ext/SFML/lib/")
 add_executable("${PROJECT_NAME}" main.cpp
 
         inc/Game.hpp src/Game.cpp
-		inc/Ball.hpp src/Ball.cpp
-		inc/Utils.hpp src/Utils.cpp)
+		inc/Bird.hpp 
+		inc/Obstacle.hpp)
 											
 target_link_libraries("${PROJECT_NAME}" sfml-graphics-s-d
 						  sfml-window-s-d
